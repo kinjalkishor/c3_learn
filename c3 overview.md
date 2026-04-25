@@ -49,7 +49,7 @@ pause
 
 The `compile-run` command compiles the `.c3` file to an executable and then runs that executable after compilation. If you do not wish to run the executable after compilation, the `compile` command can be used.   
 
-Projects in C3:  
+## Projects in C3:  
 For more details refer here - https://c3-lang.org/getting-started/projects/  
 Projects are optional, but are a good way to manage compiling code when there are a lot of files and modules.  
 he c3c init command will create a new directory containing your project structure. It requires a name of the project, we will use myc3project in its place.
@@ -57,7 +57,7 @@ he c3c init command will create a new directory containing your project structur
 c3c init myc3project
 ```
 
-Build & run:  
+#### Build & run:  
 C3 has a simple command to build & run our project.
 ```txt
 c3c run
@@ -69,7 +69,7 @@ You can also specify the target to build & run.
 ```txt
 c3c run myc3project
 ```
-Build  
+#### Build  
 If you only want to build the project, you can use the build command:
 ```txt
 c3c build
