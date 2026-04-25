@@ -90,14 +90,7 @@ It should print Hello, World! and return back to the command line prompt. If you
 
 TODO
 ====================================
-```txt
-C3 build <dir>
-```
 
-C3 thinks in terms of directory-based packages. The `C3 build <dir>` command takes all the files in the directory `<dir>`, compiles them into a package and then turns that into an executable. You can also tell it to treat a single file as a complete package, by adding `-file`, like so:
-```txt
-C3 run hellope.C3 -file
-```
 
 ## Variable declarations
 A variable declaration declares a new variable for the current scope.
